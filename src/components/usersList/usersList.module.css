@@ -1,0 +1,9 @@
+.usersList {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 10px 0px 10px;
+}
+
+.usersList span {
+    color: #999999
+}

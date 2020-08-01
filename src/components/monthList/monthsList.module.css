@@ -1,0 +1,59 @@
+.container {
+    width: 360px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100%;
+    background-color: #00CC33;
+}
+
+.monthsList {
+    width: 100%;
+    margin: 0 auto;
+    background: #fafafa;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .25), 0 2px 2px rgba(0, 0, 0, .08), 0 1px 1px rgba(0, 0, 0, .16);
+    transition: transform .2s linear;
+    padding: 10px;
+    height: 418px;
+    overflow: auto;
+}
+
+.monthsList::-webkit-scrollbar {
+    width: 8px;
+}
+
+.monthsList::-webkit-scrollbar-track {
+    background: #0066FF
+}
+
+.monthsList::-webkit-scrollbar-thumb {
+    background: #FF0033;
+}
+
+.monthsListItem:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+
+.month {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+
+.itemGrey {
+    color: #666666;
+}
+
+.itemBlue {
+    color: #0066FF;
+}
+
+.itemGreen {
+    color: #00CC33;
+}
+
+.itemRed {
+    color: #FF0033;
+}
