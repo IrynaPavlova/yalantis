@@ -27,7 +27,7 @@ class MonthsList extends Component {
     selectedMonth: ""
   };
 
-  async componentDidMount() {
+  componentDidMount() {
     this.props.getUsers();
   }
 
